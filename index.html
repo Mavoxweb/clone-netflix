@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>NETFLIX MAVOX</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="./images/logo.png"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tv Show</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Lasted</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>>
+
+        </div>
+
+    </header>
+
+    <div class="banner">
+        <img src="./images/bg.jpg" class="bg">
+        <div class="content">
+            <img src="./images/name.png" class="movieTitle" alt="mulan, project netflix, programação">
+            <h4>
+                <span>2022</span>
+                <span><i>12+</i></span>
+                <span>1h 55min</span>
+                <span>Action & Adventure</span>
+            </h4>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error laudantium porro voluptatum corporis ipsa aperiam cumque, exercitationem illum fugiat atque inventore, magni laboriosam? Exercitationem nemo rerum accusantium amet incidunt asperiores!
+            </p>
+
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+        
+            </div>
+            
+        </div>
+
+        <a class="play" onclick="toggleVideo()"><img src="./images/play.png">Whatch Trailer</a>
+    </div>
+    
+    <div class="trailer">
+        <video src="./images/video.mp4" controls="true"></video>
+        <img src="./images/close.png" class="close" onclick="toggleVideo()">
+    </div>
+</body>
+<script src="https://yagasaki7k.github.io/custom-scripts/font-awesome.js"></script>
+</html>
